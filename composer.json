@@ -1,0 +1,27 @@
+{
+	"name"        : "benlumia007/classicpress-alpha",
+	"type"        : "classicpress-theme",
+	"description" : "Our very first default theme for ClassicPress.",
+	"keywords"    : [ "classicpress" ],
+	"homepage"    : "https://github.com/benlumia007/classicpress-alpha",
+	"license"     : "GPL-2.0-or-later",
+	"authors"     : [
+		{
+			"name"    : "Benjamin Lu",
+			"email"   : "benlumia007@gmail.com",
+			"homepage": "https://luthemes.com"
+		}
+	],
+	"autoload"    : {
+		"psr-4" : {
+			"Alpha\\" : "app/"
+		},
+		"files": [
+			"app/Entry/functions-entry.php",
+			"app/Site/functions-site.php"
+		]
+	},
+  "require": {
+          "php" : ">=5.6"
+  }
+}
